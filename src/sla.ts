@@ -14,9 +14,8 @@ export class SLA {
 
   public echo(): string {
     return `SLA util, example: sla 99.9
-      available minutes: ${this.count(99.9)}, unavailable minutes: ${
-      this.totalTime - this.count(99.9)
-    }
+      available minutes: ${this.count(99.9)}, unavailable minutes: ${this
+      .totalTime - this.count(99.9)}
     `;
   }
 
@@ -24,8 +23,7 @@ export class SLA {
     return (this.totalTime * sla) / 100;
   }
   public print(sla: number) {
-    return `available minutes: ${this.count(sla)}, unavailable minutes: ${
-      this.totalTime - this.count(sla)
-    }`;
+    return `available minutes: ${this.count(sla)}, unavailable minutes: ${this
+      .totalTime - this.count(sla)}`;
   }
 }

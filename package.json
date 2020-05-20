@@ -1,7 +1,7 @@
 {
-  "name": "sla",
+  "name": "sla-cli",
   "version": "0.0.1",
-  "description": "sla",
+  "description": "sla-cli",
   "license": "MIT",
   "repository": "git@github.com:uncledu/sla.git",
   "author": {

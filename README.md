@@ -5,13 +5,13 @@
 # Using this util
 #### install
 ```
-npm i sla -g
+npm i sla-cli -g
 
 ```
 #### use
 ```
-sla 99.9
-sla 99.7
+sla-cli 99.9
+sla-cli 99.7
 ```
 ## Setting travis and coveralls badges
 1. Sign in to [travis](https://travis-ci.org/) and activate the build for your project.
